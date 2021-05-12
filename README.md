@@ -24,11 +24,18 @@ So far, I have seen different solutions.
 * `nosetest` seems to be really simple to implement for begginers
   * https://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137
 * Some are even mixing unittest and nose tests to get even further
+
 ## Set up the testing environment
 
+* `sudo apt install python3-venv && sudo apt install python3-pip`
+* `python3 -m venv python-tdd &&  source python-tdd/bin/activate`
 * `pip install pytest`
-Write your test
+* Write your test
+* Make it fail
+* Correct it
 
+## Left to check
+* pytest fixtures : https://docs.pytest.org/en/stable/fixture.html
 
 # Useful links
 Special shoutout to all the resources and people that have helped me on the way :
